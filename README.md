@@ -76,7 +76,7 @@ and data extraction from AstraDB\
 **training_raw_data_validation:** contains code to validate raw data from Training_Batch_Files\
 **Training_Raw_Files_Validated:** contains validated data which actually is deleted after inserting into a database\
 **training_validation_insertion.py:** contains code which launches validation and database 
-insertion procedure for training data separately\
+insertion procedure for training data separately
 
 ## Deployment
 
