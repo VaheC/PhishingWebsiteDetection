@@ -4,10 +4,10 @@
 Phishing is a type of fraud in which an attacker impersonates a reputable company or person in order to get \
 sensitive information such as login credentials or account information via email or other communication \
 channels. Phishing is popular among attackers because it is easier to persuade someone to click a malicious \
-link that appears to be authentic than it is to break through a computer's protection measures.The goal of \
-this project is to create a ML solution to identify phishing websites. The final result of the project is a \
-web application. It will take an a website's URL as input and classify the website: either yes (for phishing) \
-or no (otherwise).
+link that appears to be authentic than it is to break through a computer's protection measures. \
+The goal of this project is to create a ML solution to identify phishing websites. The final result of the \
+project is a web application. It will take an a website's URL as input and classify the website: either yes \
+(for phishing) or no (otherwise).
 
 # Files' description
 **.circleci:** contains code for circleci\
@@ -86,7 +86,7 @@ The web app is available [here](https://phishing--detector.herokuapp.com/).
 
 ## Demo
 
-![](https://github.com/VaheC/PhishingWebsiteDetection/blob/main/api.gif)
+![](https://github.com/VaheC/PhishingWebsiteDetection/blob/main/app.gif)
 
 ## Installation
 
