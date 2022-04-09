@@ -1,18 +1,12 @@
 
 # Phishing website detection
 
-Phishing is a type of fraud in which an attacker impersonates \
-a reputable company or person in order to get sensitive information \
-such as login credentials or account information via email or other \
-communication channels. Phishing is popular among attackers because \
-it is easier to persuade someone to click a malicious link that \
-appears to be authentic than it is to break through a computer's \
-protection measures.\
-The goal of this project is to create a ML solution 
-to identify phishing websites.\
-The final result of the project is a web application. 
-It will take an a website's URL as input 
-and classify the website: either yes (for phishing) 
+Phishing is a type of fraud in which an attacker impersonates a reputable company or person in order to get \
+sensitive information such as login credentials or account information via email or other communication \
+channels. Phishing is popular among attackers because it is easier to persuade someone to click a malicious \
+link that appears to be authentic than it is to break through a computer's protection measures.The goal of \
+this project is to create a ML solution to identify phishing websites. The final result of the project is a \
+web application. It will take an a website's URL as input and classify the website: either yes (for phishing) \
 or no (otherwise).
 
 # Files' description
@@ -41,13 +35,13 @@ and feature standardization applied during training, and scaler used during KMea
 **main.py:** contains code which actually trains all ML models and code used for prediction 
 (a user need to provide a folder name containing training or prediction data depending on a task,
 locally postman can be used to do that via POST request)\
-**Models:** contains the best trained model of each cluster\
+**Models:** contains the best trained model of each cluster
 
 **Notice: there are 2 separate datasets for training and prediction. Prediction dataset is 
 not used anywhere except for prediction. Despite this training data is splitted into train 
 and test sets during model training process. Predicition dataset has been created applying code
 from extract_features to some websites obtained from [PhishTank](https://community.opendns.com/phishtank/).
-The training data comes from [here](https://data.mendeley.com/datasets/72ptz43s9v/1).**\
+The training data comes from [here](https://data.mendeley.com/datasets/72ptz43s9v/1).**
 
 **Prediction_Archive_Bad_Data:** contains archived prediction data files that have not passed data validation procedure\
 **Prediction_Batch_Files:** contains preliminary data files for prediction task\
